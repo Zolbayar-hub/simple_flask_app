@@ -9,7 +9,7 @@ def hello_world():
 
 @app.route('/zoloo')
 def hello_zoloo():
-    return 'Hello, Zoloo!'
+    return 'Hello, Zoloo! added some test'
 
 @app.route('/form', methods=['GET', 'POST'])
 def render_form():
