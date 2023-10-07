@@ -6,6 +6,10 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
 
+# 1. git status
+# 2. git add .
+# 3. git commit -m "bich u ch hamaagui"
+# 4. git push -u origin main
 
 @app.route('/zoloo')
 def hello_zoloo():
